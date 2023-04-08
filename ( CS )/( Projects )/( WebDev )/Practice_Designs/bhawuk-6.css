@@ -1,0 +1,27 @@
+.box{
+    border: 3px solid red;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 219px;
+    width: 230px;
+    margin: 15px;
+   
+}
+
+#box1{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+.container{
+    
+
+    border: 3px solid blue;
+    display: inline-block;
+    
+    width: 791px;
+    
+}

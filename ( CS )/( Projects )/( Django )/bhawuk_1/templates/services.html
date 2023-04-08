@@ -1,0 +1,71 @@
+{% extends 'base_services.html' %}
+
+{% block title %}Services{% endblock title %}
+
+{% block body %}
+<h1>RO-Creater Form</h1><hr>
+
+<span><strong>Note:-</strong> Please fill out the below form to generate RO.</span>
+
+
+
+<div class="container" style="background-color: yellow; border: 3px solid red; border-radius: 10px;" height="auto" >
+
+    <form class="row g-3 my-4" method="POST" action="ro_creation">
+      {% csrf_token %}
+        <div class="row-md-6">
+         <label for="inputRO_Number" class="form-label">* Today's Date:-</label>
+         <input type="date" class="form-control" id="inputEmail4" >
+        </div>
+        <div class="row-md-6">
+         <label for="inputRO_Number" class="form-label">* RO No.</label>
+         <input type="number" class="form-control" id="inputEmail4" >
+        </div>
+
+        <div class="col-md-6">
+         <label for="inputPublication" class="form-label">* The Advertising Manager,</label>
+         <input type="text" class="form-control" id="inputEmail4" >
+        </div>
+    
+        <div class="row-md-6">
+         <label for="inputClient" class="form-label">* Client Name:-</label>
+         <input type="text" class="form-control" id="inputAddress" >
+        </div>
+  
+        <div class="row-md-6">
+         <label for="inputCity" class="form-label">* Edition where advertisement would be published:-</label>
+         <input type="text" class="form-control" id="inputCity">
+        </div>
+   
+    
+        <div class="row-md-6">
+         <label for="inputZip" class="form-label">* Date of Insertion:-</label>
+          <input type="date" class="form-control" id="inputZip">
+        </div>
+
+        
+        <div class="row-md-6">
+         <label for="inputClient" class="form-label">* Particulars:-</label>
+         <input type="text" class="form-control" id="inputAddress" >
+        </div>
+
+        <div class="row-md-6">
+         <label for="inputClient" class="form-label">* Space & Position:-</label>
+         <input type="text" class="form-control" id="inputAddress" >
+        </div>
+
+        <div class="row-md-6">
+         <label for="inputClient" class="form-label">* Rate:-</label>
+         <input type="text" class="form-control" id="inputAddress" >
+        </div>
+    
+      
+        
+        <div class="col-12">
+         <button type="submit" class="btn btn-primary">Submit Now</button>
+        </div>
+    </form>
+  </div>
+
+{% endblock body %}
+

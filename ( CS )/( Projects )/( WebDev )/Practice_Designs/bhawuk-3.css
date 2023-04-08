@@ -1,0 +1,44 @@
+
+
+p,span
+{   font-family: Dancing Script;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+    color:rgb(52, 20, 112);
+  
+}
+
+a
+{
+    border: 2px solid red;
+    background-color: rgb(45, 224, 32);
+}
+/* Defining ID of a Tag */
+p#blackElement{color: brown; background-image: url('Bhawuk_Pic.jpeg');}
+
+/* Defining Class of a Tag */
+.bgYellow{ color:firebrick; background-color: rgb(213, 255, 47); border:2px solid blue;}
+
+.skyBlue{color: aquamarine;}
+
+<center><img src="Logo.png" alt=""></center><br>
+    
+<center>
+
+    <marquee><span  id="blackElement" ><strong>Welcome to RO Portal</strong></span></marquee>
+    <p>Click here to access RO creater.</p>
+    
+</center>
+<center><a style="font-family: Dancing Script, cursive;" href="https://www.onwardadvertising.com"  target="_blank">Our Website</a></center><hr><hr>
+<body class="bgYellow"> 
+    <center><img src="Logo.png" alt=""></center><br>
+    
+    <center>
+    
+        <marquee><span  id="blackElement" ><strong>Welcome to RO Portal</strong></span></marquee>
+        <p>Click here to access RO creater.</p>
+        
+    </center>
+    <center><a style="font-family: Dancing Script, cursive;" href="https://www.onwardadvertising.com"  target="_blank">Our Website</a></center><hr><hr>

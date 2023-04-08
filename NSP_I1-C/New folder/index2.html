@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<form>
+<input name="username" id="username" type="text">
+<input name="pass" id="pass" type="password">
+<input type="button" value="Submit" onclick="myFunction()">
+</form> 
+
+
+<script>
+
+function refreshPage(){
+    window.location.reload();
+}
+function myFunction(){
+  var user = document.getElementById("username").value;
+  var pass = document.getElementById("pass").value;
+
+if(user == "bhawuk_arora" && pass == "Bhawuk@42"){
+            window.location.href="index.html"
+        alert("You are being redirected to new page\nPlease Wait...");
+   }
+else{
+        alert("Incorrect Username or, Password.\nPlease try again.");
+        
+    }
+}
+
+</script>
+</html>
